@@ -4,13 +4,16 @@ export default {
   theme: {
     extend: {
       colors: {
-        white: 'rgb(var(--white) / <alpha-value>)',
+        whiteOrange: 'rgb(var(--white) / <alpha-value>)',
         orangeLight: ' rgb(var(--orangeLight) / <alpha-value>)',
         orangeMedium: ' rgb(var(--orangeMedium) / <alpha-value>)',
         orangeDark: ' rgb(var(--orangeDark) / <alpha-value>)',
         primary: ' rgb(var(--primary) / <alpha-value>)',
       },
-      fontFamily: { roboto: 'Roboto ' },
+      fontFamily: {
+        roboto: 'Roboto ',
+        rajhdani: 'Rajdhani',
+      },
     },
   },
   plugins: [],
