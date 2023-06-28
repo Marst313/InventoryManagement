@@ -1,10 +1,11 @@
 import React from 'react';
+import { Sidebar } from '../components';
 
 const Dashboard = () => {
   return (
-    <div>
-      <h1>Dashboard</h1>
-    </div>
+    <main className="bg-white h-screen relative font-roboto">
+      <Sidebar />
+    </main>
   );
 };
 

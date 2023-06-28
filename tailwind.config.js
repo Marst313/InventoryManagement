@@ -10,6 +10,7 @@ export default {
         orangeDark: ' rgb(var(--orangeDark) / <alpha-value>)',
         primary: ' rgb(var(--primary) / <alpha-value>)',
       },
+      fontFamily: { roboto: 'Roboto ' },
     },
   },
   plugins: [],
