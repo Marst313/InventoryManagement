@@ -2,9 +2,9 @@ import React from 'react';
 
 const Home = () => {
   return (
-    <div>
+    <section className="bg-primary h-[90vh] w-full">
       <h1>Home</h1>
-    </div>
+    </section>
   );
 };
 

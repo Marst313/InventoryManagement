@@ -2,9 +2,9 @@ import React from 'react';
 
 const Navbar = () => {
   return (
-    <div>
+    <nav className="w-full h-[5vh] bg-transparent">
       <h1>Navbar</h1>
-    </div>
+    </nav>
   );
 };
 
