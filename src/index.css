@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+:root {
+  --white: 255 244 238;
+  --orangeLight: 255 165 89;
+  --orangeMedium: 253 141 3;
+  --orangeDark: 255 96 0;
+  --primary: 69 69 69;
+}
+
+body {
+  @apply bg-white;
+}
