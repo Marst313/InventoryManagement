@@ -15,6 +15,11 @@ npm install
 npm run dev
 ```
 
+## Contributors
+```sh
+fmjawahir
+```
+
 ## Show your support
 
 Give a ⭐️ if this project helped you!
