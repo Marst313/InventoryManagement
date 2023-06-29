@@ -19,11 +19,11 @@ const Navbar = () => {
         </Link>
       </div>
 
-      <div className="flex justify-evenly w-1/3">
+      <div className="flex justify-center w-1/3">
         <Link to="login" className="bg-gradient-to-b from-orangeDark to-orangeMedium p-2 px-10 rounded-md ">
           <h2>Masuk</h2>
         </Link>
-        <Link>
+        <Link className="p-2 px-10">
           <h2>Daftar</h2>
         </Link>
       </div>
