@@ -18,6 +18,7 @@ npm run dev
 ## Contributors
 ```sh
 fmjawahir
+NdaruWindra
 ```
 
 ## Show your support
