@@ -9,6 +9,7 @@ export default {
         orangeMedium: ' rgb(var(--orangeMedium) / <alpha-value>)',
         orangeDark: ' rgb(var(--orangeDark) / <alpha-value>)',
         primary: ' rgb(var(--primary) / <alpha-value>)',
+        primaryFont: '#686868',
       },
       fontFamily: {
         roboto: 'Roboto ',
