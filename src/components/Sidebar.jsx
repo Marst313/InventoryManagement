@@ -11,8 +11,8 @@ import { NavLink } from 'react-router-dom';
 
 const Sidebar = () => {
   return (
-    <aside className="h-screen float-left w-56 border-r-[1px] aside-shadow">
-      <div className="h-1/5 flex  gap-3 font-semibold text-lg px-5 pt-10 items-center">
+    <aside className="h-screen float-left w-56 border-r-[1px] aside-shadow ">
+      <div className="h-1/6 flex  gap-3 font-semibold text-lg px-5 pt-10 items-center">
         <img src={icons} alt="logo invent" className="w-14 h-14" />
         <h1>Invent Pro</h1>
       </div>
