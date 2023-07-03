@@ -4,13 +4,13 @@ import IconSelengkapnya from "../assets/icons/icon-selengkapnyaHome.png";
 
 const Home = () => {
   return (
-    <section className="bg-primary h-[90vh] w-full">
-      <div className="flex flex-row h-[90vh] ">
+    <section className="bg-primary h-[84vh] overflow-hidden w-full">
+      <div className="flex flex-row h-[84vh] ">
         <div className="container w-1/2 flex-col flex justify-center px-10">
-          <h1 className="text-[64px] font-rajhdani font-bold text-[#FFFF] ">
+          <h1 className="text-[64px] font-rajhdani font-bold text-white ">
             Kelola Inventaris Barang dengan Mudah dan Efisien
           </h1>
-          <p className="font-rajhdani text-[14px] text-[#FFFF] leading-[42px]">
+          <p className="font-rajhdani text-[14px] text-white leading-[42px]">
             Selamat datang di{" "}
             <span className="text-[25px] font-bold text-[#FF6000]">
               INVENT PRO
@@ -20,7 +20,7 @@ const Home = () => {
             alat yang Anda butuhkan untuk menjaga persediaan barang Anda tetap
             terorganisir, efisien, dan terkendali.
           </p>
-          <button class="rounded-full color bg-orange-500 p-2 w-[22%] my-5 text-[16px] text-[#FFFF] flex  ">
+          <button class="rounded-full color bg-orange-500 p-2 w-[22%] my-5 text-[16px] text-white flex  ">
             <span>Selengkapnya</span>
             <img src={IconSelengkapnya} alt="icon" className="w-6 h-7 mx-2" />
           </button>
