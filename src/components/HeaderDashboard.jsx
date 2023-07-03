@@ -20,7 +20,7 @@ const HeaderDashboard = () => {
   }, []);
 
   return (
-    <div className="flex justify-end float-right mt-10 mr-24 gap-10  ">
+    <div className="flex justify-end float-right mt-10 mr-24 gap-10    ">
       <button>
         <img src={iconNotif} alt="icon notif" />
       </button>
