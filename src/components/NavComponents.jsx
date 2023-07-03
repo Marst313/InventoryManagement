@@ -1,5 +1,5 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React from "react";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
@@ -20,7 +20,10 @@ const Navbar = () => {
       </div>
 
       <div className="flex justify-center w-1/3">
-        <Link to="login" className="bg-gradient-to-b from-orangeDark to-orangeMedium p-2 px-10 rounded-md ">
+        <Link
+          to="login"
+          className="bg-gradient-to-b from-orangeDark to-orangeMedium p-2 px-10 rounded-md "
+        >
           <h2>Masuk</h2>
         </Link>
         <Link className="p-2 px-10">
