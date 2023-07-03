@@ -3,8 +3,8 @@ import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   return (
-    <nav className="w-full h-[5vh] bg-primary text-white flex items-center p-10 font-rajhdani">
-      <Link className="w-1/3 text-2xl font-medium" to="/">
+    <nav className="w-full h-[5vh] bg-primary text-white flex items-center p-10 font-rajhdani justify-end">
+      <Link className="text-2xl font-medium mr-64" to="/">
         <span className="text-orangeDark">INVENT </span> PRO
       </Link>
       <div className="flex flex-row justify-between w-1/3 items-center ">

@@ -1,11 +1,12 @@
 import React from 'react';
-import { HeaderDashboard, Sidebar } from '../components';
+import { HeaderDashboard, MainDashboard, Sidebar } from '../components';
 
 const Dashboard = () => {
   return (
     <main className="bg-white h-screen relative font-roboto">
       <Sidebar />
       <HeaderDashboard />
+      <MainDashboard />
     </main>
   );
 };
